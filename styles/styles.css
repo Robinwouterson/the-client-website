@@ -26,6 +26,11 @@ nav {
 }
 
 
+.week-selectie ul li {
+    display: inline-block;
+    margin-right: 50px; 
+    margin-left: 30px;
+  }
 
 
 
@@ -60,6 +65,12 @@ nav {
     
 }
 
+.second-nav ul li {
+    display: inline-block;
+    margin-right: 10px; 
+  }
+
+
 
 .main-content-inner {
     display: flex;
@@ -74,6 +85,37 @@ nav {
     
 }
 
+.container-grid1 {
+    
+
+        display: grid;
+        grid-template-columns: repeat(autofit, minmax(300px, 1fr));
+        gap: 15px;
+        justify-content: center;
+        margin-top: 1cm;
+    
+        /*grid-gap: 20px;*/
+        /*grid-auto-rows: 290px;*/
+        
+    
+    
+}
+
+.sectie {
+    grid-column: 1;
+    grid-row: 1;
+    color: #49382E;
+    text-align: center;
+    font-size: 17px;
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 3cm;    
+    margin-top: 2cm; 
+    border: 2px solid #49382E;
+}
+
+
+
 .section1, .section2, .section3 {
     height: 100px;
     width: 100px;
@@ -81,6 +123,7 @@ nav {
 
 .footer1 {
     margin-left: 350px;
+    
 }
 
 
