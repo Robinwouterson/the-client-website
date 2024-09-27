@@ -1,1 +1,79 @@
-/* CSS */
+body {
+    display: flex;
+    flex-direction:column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+header, footer {
+    background-color: rgb(116, 198, 253);
+    padding: 10px;
+    text-align: center;
+}
+
+
+nav {
+    background-color: blueviolet;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.m1 {
+    display: flex;
+    flex: 1;
+}
+
+
+
+
+
+.main-content {
+    display: flex;
+    flex: 1;
+}
+
+
+.sidebarleft {
+    width: 20%;
+    background-color: blanchedalmond;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-area {
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.second-nav {
+    background-color:palevioletred;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 136%;
+    
+    
+}
+
+
+.main-content-inner {
+    display: flex;
+    flex: 1;
+}
+
+.sidebar-right {
+    width: 20%;
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin-top: 140px;
+    
+}
+
+.section1, .section2, .section3 {
+    height: 100px;
+    width: 100px;
+}
