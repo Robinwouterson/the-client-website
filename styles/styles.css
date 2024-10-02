@@ -3,7 +3,10 @@ body {
     flex-direction:column;
     min-height: 100vh;
     margin: 0;
+
 }
+
+
 
 
 header, footer {
@@ -49,6 +52,8 @@ nav {
     flex-direction: column;
 }
 
+
+
 .content-area {
     flex: 1;
     padding: 10px;
@@ -88,14 +93,14 @@ nav {
 .container-grid1 {
     
 
-        display: grid;
-        grid-template-columns: repeat(autofit, minmax(300px, 1fr));
-        gap: 15px;
-        justify-content: center;
-        margin-top: 1cm;
-    
-        /*grid-gap: 20px;*/
-        /*grid-auto-rows: 290px;*/
+    display: grid;
+    grid-template-columns: repeat(autofit, minmax(300px, 1fr));
+    gap: 15px;
+    justify-content: center;
+    margin-top: 1cm;
+
+    /*grid-gap: 20px;*/
+    /*grid-auto-rows: 290px;*/
         
     
     
