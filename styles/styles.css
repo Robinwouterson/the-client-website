@@ -7,9 +7,7 @@ body {
 }
 
 
-
-
-header, footer {
+header {
     background-color: rgb(116, 198, 253);
     padding: 10px;
     text-align: center;
@@ -23,18 +21,11 @@ nav {
     text-align: center;
 }
 
+
 .m1 {
     display: flex;
     flex: 1;
 }
-
-
-.week-selectie ul li {
-    display: inline-block;
-    margin-right: 50px; 
-    margin-left: 30px;
-  }
-
 
 
 .main-content {
@@ -53,13 +44,13 @@ nav {
 }
 
 
-
 .content-area {
     flex: 1;
     padding: 10px;
     display: flex;
     flex-direction: column;
 }
+
 
 .second-nav {
     background-color:palevioletred;
@@ -69,6 +60,17 @@ nav {
     
     
 }
+
+
+
+.week-selectie ul li {
+    display: inline-block;
+    margin-right: 50px; 
+    margin-left: 30px;
+  }
+
+
+
 
 .second-nav ul li {
     display: inline-block;
@@ -82,13 +84,7 @@ nav {
     flex: 1;
 }
 
-.sidebar-right {
-    width: 20%;
-    background-color: blanchedalmond;
-    padding: 10px;
-    margin-top: 140px;
-    
-}
+
 
 .container-grid1 {
     
@@ -101,10 +97,9 @@ nav {
 
     /*grid-gap: 20px;*/
     /*grid-auto-rows: 290px;*/
-        
-    
-    
+          
 }
+
 
 .sectie {
     grid-column: 1;
@@ -121,10 +116,27 @@ nav {
 
 
 
+.sidebar-right {
+    width: 20%;
+    background-color: blanchedalmond;
+    padding: 10px;
+    margin-top: 140px;
+    
+}
+
+
 .section1, .section2, .section3 {
     height: 100px;
     width: 100px;
 }
+
+
+footer {
+    background-color: rgb(116, 198, 253);
+    padding: 10px;
+    text-align: center;
+}
+
 
 .footer1 {
     margin-left: 350px;
