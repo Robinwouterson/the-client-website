@@ -3,15 +3,19 @@ body {
     flex-direction:column;
     min-height: 100vh;
     margin: 0;
+    background-color: #fafafa;
 
 }
 
 
 header {
-    background-color: rgb(116, 198, 253);
+    background-color: rgb(47,139,224);
     padding: 10px;
     text-align: center;
 }
+
+
+/*--------------------------------------------------------*/
 
 
 nav {
@@ -37,7 +41,7 @@ nav {
 
 .sidebarleft {
     width: 20%;
-    background-color: blanchedalmond;
+    background-color: rgba(255,255,255,255);
     padding: 10px;
     display: flex;
     flex-direction: column;
@@ -49,6 +53,7 @@ nav {
     padding: 10px;
     display: flex;
     flex-direction: column;
+
 }
 
 
@@ -75,7 +80,7 @@ nav {
 .second-nav ul li {
     display: inline-block;
     margin-right: 10px; 
-  }
+}
 
 
 
@@ -86,19 +91,104 @@ nav {
 
 
 
+/*--------------------------------------------------------*/
+
+
 .container-grid1 {
-    
+    margin: 40px 40px;
+    background-color: rgba(255,255,255,255);
 
-    display: grid;
-    grid-template-columns: repeat(autofit, minmax(300px, 1fr));
-    gap: 15px;
-    justify-content: center;
-    margin-top: 1cm;
-
-    /*grid-gap: 20px;*/
-    /*grid-auto-rows: 290px;*/
-          
 }
+
+
+.container-grid1 ul {
+    
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+
+.container-grid1 ul:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0px;
+    height: 100%;
+    border: 1px dashed #aaa;
+}
+
+
+.container-grid1 ul li {
+    margin: 50px 60px;
+    position: relative;
+}
+
+
+.container-grid1 ul li > span {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -60px;
+    width: 0px;
+    height: 100%;
+    border: 1px solid #aaa;
+}
+
+
+.container-grid1 ul li > span:before, .container-grid1 ul li > span:after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border: 2px solid #aaa;
+    position: absolute;
+    border-radius: 50%;
+    left: -7px;
+    background: #fff;
+}
+
+
+.container-grid1 ul li > span:before {
+    top: -10px;
+}
+
+
+.container-grid1 ul li > span:before {
+    top: 100%;
+}
+
+.container-grid1 ul li .time span {
+    position: absolute; 
+    font-size: 12px;
+    left: -105px;
+    width: 30px;
+    text-align: right;
+}  
+
+.container-grid1 ul li .time span:first-child {
+    
+    top: -12px;
+}  
+
+.container-grid1 ul li .time span:last-child {
+    
+    top: 100%;
+}  
+
+.li1, .li2, .li3 {
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+
+
+
+/*--------------------------------------------------------*/
+
+
 
 
 .sectie {
@@ -132,7 +222,7 @@ nav {
 
 
 footer {
-    background-color: rgb(116, 198, 253);
+    background-color: rgb(47,139,224);
     padding: 10px;
     text-align: center;
 }
