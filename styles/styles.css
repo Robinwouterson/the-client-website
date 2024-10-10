@@ -178,7 +178,7 @@ nav {
 }  
 
 .li1, .li2, .li3 {
-    border: 2px solid black;
+    border: 2px groove;
     padding: 15px;
     border-radius: 20px;
 }
